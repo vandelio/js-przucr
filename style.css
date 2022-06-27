@@ -1,0 +1,59 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  background: #000;
+  touch-action: pan-y;
+  height: 100vh;
+  overflow: auto;
+}
+section {
+  height: 100%;
+  width: 100%;
+  position: sticky;
+  top: 50%;
+
+  display: flex;
+  justify-content: center;
+}
+video {
+  position: fixed;
+  z-index: 0;
+  height: 100%;
+
+  min-width: 100%;
+}
+.scroll-dummy {
+  height: auto;
+  max-width: 998px;
+  padding: 20px;
+  z-index: 1;
+  font-family: sans-serif;
+}
+
+.scroll-dummy h1 {
+  font-size: 80px;
+  font-weight: 700;
+  padding: 200px 0;
+  color: white;
+}
+
+.scroll-dummy p,
+.scroll-dummy a {
+  font-size: 20px;
+  color: #ccc;
+  line-height: 1.4;
+}
+
+code {
+  font-family: monospace;
+  background: #333;
+  border: 1px solid #999;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
